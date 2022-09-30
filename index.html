@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>home || dashboard</title>
+
+		<!-- bootstrap css link -->
+		<!-- <link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+			crossorigin="anonymous"
+		/> -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+	
+		<link rel="stylesheet" href="css/utilities.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/responsive.css" />
+		<link rel="stylesheet" href="css/slider.css">
+		<style>
+			.btn {
+				display: inline!important;
+
+			}
+		</style>
+	</head>
+	<body>
+		<main class="main">
+
+			<!-- <nav class="nav d-flex justify-content-between align-items-center d-none">
+				<div class="nav-left d-flex justify-content-start align-items-center">
+					<a href="#" class="logo">
+						<img src="img/logo.png" alt="logo" />
+					</a>
+
+					<button class="sidebar-open-btn">
+						<svg class="icon"><use xlink:href="img/icons.svg#icon-bars"></use></svg>
+					</button>
+
+					<form action="#" class="nav-form">
+						<input type="text" placeholder="search here" class="search-input" />
+					</form>
+				</div>
+
+				<button class="profile-btn">
+					<img src="img/user-1.jpg" alt="" />
+				</button>
+			</nav> -->
+
+			<div class="dashboard">
+				<div class="sidebar d-none d-lg-block">
+					<figure class="logo mb-5 d-flex justify-content-center align-items-center">
+						<!-- <img src="img/logo.png" alt="" /> -->
+						<h2 class="heading ">logo</h2>
+					</figure>
+
+					<ul class="sidebar-list">
+						<li class="sidebar-item mb-1">
+							<a
+								href="#"
+								class="active sidebar-link d-flex justify-content-start align-items-center"
+							>
+								<svg class="icon mr-1"><use xlink:href="img/icons.svg#icon-dashboard"></use></svg>
+								<span class="text">dashboard</span>
+							</a>
+						</li>
+						<li class="sidebar-item mb-1">
+							<a href="#" class="sidebar-link d-flex justify-content-start align-items-center">
+								<svg class="icon mr-1"><use xlink:href="img/icons.svg#icon-dashboard"></use></svg>
+								<span class="text">dashboard</span>
+							</a>
+						</li>
+						<li class="sidebar-item mb-1">
+							<a href="#" class="sidebar-link d-flex justify-content-start align-items-center">
+								<svg class="icon mr-1"><use xlink:href="img/icons.svg#icon-dashboard"></use></svg>
+								<span class="text">dashboard</span>
+							</a>
+						</li>
+						<li class="sidebar-item mb-1">
+							<a href="#" class="sidebar-link d-flex justify-content-start align-items-center">
+								<svg class="icon mr-1"><use xlink:href="img/icons.svg#icon-dashboard"></use></svg>
+								<span class="text">dashboard</span>
+							</a>
+						</li>
+						<li class="sidebar-item mb-1">
+							<a href="#" class="sidebar-link d-flex justify-content-start align-items-center">
+								<svg class="icon mr-1"><use xlink:href="img/icons.svg#icon-dashboard"></use></svg>
+								<span class="text">dashboard</span>
+							</a>
+						</li>
+						<li class="sidebar-item mb-1">
+							<a href="#" class="sidebar-link d-flex justify-content-start align-items-center">
+								<svg class="icon mr-1"><use xlink:href="img/icons.svg#icon-dashboard"></use></svg>
+								<span class="text">dashboard</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="mblNavNDashboard">
+					<div class="mbl-nav d-block">
+						<button class="btn-plus">
+							<svg class="icon"><use xlink:href="img/icons.svg#icon-plus"></use></svg>
+						</button>
+						<button class="btn-bar d-none d-lg-block">
+							<svg class="icon"><use xlink:href="img/icons.svg#icon-bars"></use></svg>
+						</button>
+						<div class="balence mt-2 mb-2">
+							<p class="text">total balence</p>
+							<h4 class="heading balence-total">$17030 <span>.38</span></h4>
+							<p class="text">0.12344 BTC</p>
+						</div>
+
+						<figure class="logo d-flex d-lg-none justify-content-center align-items-center">
+							<!-- <img src="img/logo.png" alt="" /> -->
+							<h2 class="heading LogoSmall">logo</h2>
+						</figure>
+
+						<div class="cards mb-2">
+							<div class="swiper">
+								<!-- Additional required wrapper -->
+								<div class="swiper-wrapper">
+									<!-- Slides -->
+									<div class="swiper-slide">
+										<div class="card card-debid">
+											<div class="card-nav d-flex justify-content-between align-items-center">
+												<figure class="card-img">
+													<svg class="icon">
+														<use xlink:href="img/icons.svg#icon-mastercard"></use>
+													</svg>
+												</figure>
+							
+											</div>
+											<div class="card-content">
+												<h6 class="heading">debit card</h6>
+												<div class="card-balence">$10,300</div>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="card card-credit">
+											<div class="card-nav d-flex justify-content-between align-items-center">
+												<figure class="card-img">
+													<svg class="icon"><use xlink:href="img/icons.svg#icon-visa"></use></svg>
+												</figure>
+											
+											</div>
+											<div class="card-content">
+												<h6 class="heading">crdit card</h6>
+												<div class="card-balence">&euro; 2011</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="mbl-nav-btns d-flex justify-content-between align-items-center">
+							<a class=" btn-topup text-center">
+								<figure class="btn-icon">
+									<svg class="icon"><use xlink:href="img/icons.svg#icon-arrow-down"></use></svg>
+								</figure>
+								<span class="text">top up</span>
+							</a>
+							<a class=" btn-withdraw text-center">
+								<figure class="btn-icon">
+									<svg class="icon"><use xlink:href="img/icons.svg#icon-arrow-up"></use></svg>
+								</figure>
+								<span class="text">withdraw</span>
+							</a>
+							<a class=" btn-send text-center">
+								<figure class="btn-icon">
+									<svg class="icon"><use xlink:href="img/icons.svg#icon-send"></use></svg>
+								</figure>
+								<span class="text">send</span>
+							</a>
+						</div>
+					</div>
+					<div class="dashboard-wrapper">
+						
+						<div class="carousel">
+
+							<!-- card 1  -->
+								<a class="carousel-item" href="#">
+										<div class="HeaderBox box1">
+											<h3>Basic-Package</h3>
+											<p><span class="Big">10$/</span> mon</p>
+										</div>
+									<div class="testi">
+										<div class="CardText">
+												<h3>100 GB SSD Disk </h3>
+												<img src="img/right.svg" alt="">
+										</div>
+							
+										<div class="CardText">
+												<h3>~10 000 Visits Monthly </h3>
+												<img src="img/right.svg" alt="">
+											</div>
+							
+											<div class="CardText">
+												<h3>1 Email Account </h3>
+												<img src="img/right.svg" alt="">
+											</div>
+											<div class="CardText">
+												<h3>2 Databases </h3>
+												<img src="img/right.svg" alt="">
+										</div>
+							
+										<div class="CardText">
+											<h3>Unlimited Free SSL  </h3>
+											<img src="img/right.svg" alt="">
+										</div>
+										<div class="CardText">
+											<h3>24/7/365 Support</h3>
+											<img src="img/right.svg" alt="">
+											</div>
+											<div class="CardText">
+												<h3>Weekly Backups</h3>
+												<img src="img/wrong.svg" alt="">
+											</div>
+												
+										<div class="CardText">
+											<button class="SubmitBtn">Get Started</button>
+										</div>
+									</div>
+								</a>
+							<!-- card 1  -->
+							
+							<!-- card 2 -->
+							
+							<a class="carousel-item" href="#">
+								<div class="HeaderBox Box2">
+									<h3>Startup-Package</h3>
+									<p><span class="Big">30$/</span> mon</p>
+								</div>
+							<div class="testi">
+								<div class="CardText">
+										<h3>100 GB SSD Disk </h3>
+										<img src="img/right.svg" alt="">
+								</div>
+							
+								<div class="CardText">
+										<h3>~10 000 Visits Monthly </h3>
+										<img src="img/right.svg" alt="">
+									</div>
+							
+									<div class="CardText">
+										<h3>1 Email Account </h3>
+										<img src="img/right.svg" alt="">
+									</div>
+									<div class="CardText">
+										<h3>2 Databases </h3>
+										<img src="img/right.svg" alt="">
+								</div>
+							
+								<div class="CardText">
+									<h3>Unlimited Free SSL  </h3>
+									<img src="img/right.svg" alt="">
+								</div>
+								<div class="CardText">
+									<h3>24/7/365 Support</h3>
+									<img src="img/right.svg" alt="">
+									</div>
+									<div class="CardText">
+										<h3>Weekly Backups</h3>
+										<img src="img/wrong.svg" alt="">
+									</div>
+										
+								<div class="CardText">
+									<button class="SubmitBtn">Get Started</button>
+								</div>
+							</div>
+							</a>
+							
+							<!-- card 3  -->
+							<a class="carousel-item" href="#">
+								<div class="HeaderBox Box3">
+									<h3>Premium-Package</h3>
+									<p><span class="Big">100$/</span> mon</p>
+								</div>
+							<div class="testi">
+								<div class="CardText">
+										<h3>100 GB SSD Disk </h3>
+										<img src="img/right.svg" alt="">
+								</div>
+							
+								<div class="CardText">
+										<h3>~10 000 Visits Monthly </h3>
+										<img src="img/right.svg" alt="">
+									</div>
+							
+									<div class="CardText">
+										<h3>1 Email Account </h3>
+										<img src="img/right.svg" alt="">
+									</div>
+									<div class="CardText">
+										<h3>2 Databases </h3>
+										<img src="img/right.svg" alt="">
+								</div>
+							
+								<div class="CardText">
+									<h3>Unlimited Free SSL  </h3>
+									<img src="img/right.svg" alt="">
+								</div>
+								<div class="CardText">
+									<h3>24/7/365 Support</h3>
+									<img src="img/right.svg" alt="">
+									</div>
+									<div class="CardText">
+										<h3>Weekly Backups</h3>
+										<img src="img/wrong.svg" alt="">
+									</div>
+										
+								<div class="CardText">
+									<button class="SubmitBtn">Get Started</button>
+								</div>
+							</div>
+							</a>
+							<!-- card 3  -->
+						 </div>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="mbl-bottom-nav d-block d-lg-none">
+				<div class="swiper-2">
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper">
+						<!-- Slides -->
+						<div class="swiper-slide">
+							<a href="#" class="nav-link active">
+								<svg class="icon"><use xlink:href="img/icons.svg#icon-credit-card"></use></svg>
+								<span class="text">card</span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#" class="nav-link">
+								<svg class="icon"><use xlink:href="img/icons.svg#icon-credit-card"></use></svg>
+								<span class="text">card</span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#" class="nav-link">
+								<svg class="icon"><use xlink:href="img/icons.svg#icon-credit-card"></use></svg>
+								<span class="text">card</span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#" class="nav-link">
+								<svg class="icon"><use xlink:href="img/icons.svg#icon-credit-card"></use></svg>
+								<span class="text">card</span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#" class="nav-link">
+								<svg class="icon"><use xlink:href="img/icons.svg#icon-credit-card"></use></svg>
+								<span class="text">card</span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#" class="nav-link">
+								<svg class="icon"><use xlink:href="img/icons.svg#icon-credit-card"></use></svg>
+								<span class="text">card</span>
+							</a>
+						</div>
+					</div>
+
+					<!-- If we need navigation buttons -->
+					<div class="swiper-btn swiper-button-prev"></div>
+					<div class="swiper-btn swiper-button-next"></div>
+				</div>
+			</div>
+		</main>
+
+		<!-- cookie-consent-modal -->
+
+		<!-- cookie-consent-modal -->
+
+		<!-- JavaScript Bundle with Popper -->
+		<!-- <script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+			crossorigin="anonymous"
+		></script> -->
+		<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+		    
+		<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	  <script>
+		$(document).ready(function(){
+		  $('.carousel').carousel({
+				  padding: 200
+		  });
+		  autoplay();
+		  function autoplay() {
+			  $('.carousel').carousel('next'); //next
+			  setTimeout(autoplay, 4500);
+		  }
+		});
+	  </script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

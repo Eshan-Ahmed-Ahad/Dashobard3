@@ -1,0 +1,87 @@
+
+.carousel{
+    height: 700px !important; 
+    
+}
+.carousel .carousel-item {
+	width: 300px !important;
+	background: #fff;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+	height: auto !important;
+	text-align: center;
+   padding-bottom: 25px;
+   border-radius: 25px !important;
+}
+.HeaderBox {
+ 
+    padding:20px;
+    border-top-right-radius: 25px !important;
+    border-top-left-radius: 25px !important;
+}
+.box1 {
+    background-color: aliceblue;
+}
+.Box2 {
+    background-color: rgb(31, 62, 89);
+
+}
+.Box3 {
+    background-color: rgb(35, 139, 229);
+    color: #fff;
+
+}
+.HeaderBox h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+.Big {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.testi {
+    padding: 5px;
+}
+.CardText {
+    display: flex;
+    justify-content: space-between;
+    margin: -10px auto !important;
+    padding: 0px 15px !important;
+}
+.CardText button {
+    width: 80%;
+    height: 100%;
+    margin: 20px auto 0px !important;
+}
+
+.CardText h3  {
+    font-size: 20px;
+    text-align: start;
+    font-weight: 500;
+    color: #000;
+}
+.CardText img {
+    margin-top: 14px !important;
+}
+
+.SubmitBtn {
+    padding:12px 30px !important ; 
+    border: none !important;
+    border-radius: 15px ;
+    background-color: #6d3af9;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+.SubmitBtn:hover {
+  background-color: #3e16ac;
+  cursor: pointer;
+
+}
+
+.mbl-nav-btns {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
